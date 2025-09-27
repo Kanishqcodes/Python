@@ -1,0 +1,15 @@
+# Write a program to take details from a student for ID-card and then print in different lines
+name=input("Enter the name of the student: ")
+grade=input("Enter the grade of the student:")
+age=int(input("Enter the age of the student:"))
+gender=input("Enter the gender of the student:")
+email=input("Enter the email-id of the student:")
+phone_no=int(input("Enter the phone no. of the student:"))
+
+print("Student Identity Card")
+print("Name:",name)
+print("Class:",grade)
+print("Age:",age)
+print("Gender:",gender)
+print("Email-id:",email)
+print("Contact no. :",phone_no)
